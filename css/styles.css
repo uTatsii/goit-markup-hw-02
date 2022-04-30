@@ -1,12 +1,28 @@
-body {
-  font-family: 'Roboto';
-  font-style: normal;
-  background-color: #FFFFFF;
+.main-page {
+  background-color: #ffffff;
   color: #212121;
+  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  font-style: normal;
 }
 
-li {
+.logo,
+.nav-link,
+.header-contact-link,
+.footer-contact-link {
+  text-decoration: none;
+}
+
+.site-nav-list,
+.contact-header,
+.bnfts-list,
+.wwd-list,
+.team-list,
+.footer-list {
   list-style-type: none;
+}
+
+.hero-btn {
+  cursor: pointer;
 }
 
 .page-header {
@@ -16,56 +32,53 @@ li {
   letter-spacing: 0.02em;
 }
 
-a.logo {
+.logo {
+  color: #000000;
   font-family: 'Raleway';
-  font-style: normal;
+  font-style: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
   text-decoration: none;
 }
 
-span.logo-web {
+.logo-web {
   color: #2196f3;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #2196f3;
-}
-
-.contact-link {
-  text-decoration: none;
+.header-contact-link {
   color: #757575;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: #2196f3;
 }
 
 .hero {
   background-color: #2f303a;
 }
+
 .hero-title {
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 .hero-btn {
   background-color: #2196f3;
+  color: #ffffff;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -74,20 +87,12 @@ span.logo-web {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  border-radius: 4px;
+  border-style: none;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #1a72b8;
-}
-
-.bnfts {}
-
-.bnfts-list {
-}
-
-.bnfts-item {
+.bnfts-item,
+.b-item-title{
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -99,12 +104,10 @@ span.logo-web {
 }
 
 .b-item-text {
+  color: #757575;
   font-weight: 400;
   line-height: 1.7;
-  color: #757575;
 }
-
-.wwd {}
 
 .wwd-title {
   font-weight: 700;
@@ -113,76 +116,57 @@ span.logo-web {
   letter-spacing: 0.03em;
 }
 
-.wwd-list {}
-
-.wwd-item {}
-
 .team {
-    background-color: #F5F4FA;
+  background-color: #F5F4FA;
+  letter-spacing: 0.03em;
 }
 
 .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 
 .team-list {
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    padding: 0;
+  background-color: #FFFFFF;
 }
 
-.team-item {}
+.team-item-name,
+.team-item-prof {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+}
 
 .team-item-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.1875;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-weight: 500;
 }
 
 .team-item-prof {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.1875;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
+  color: #757575;
 }
 
 .footer {
-    background-color: #2F303A;
+  background-color: #2F303A;
 }
 
-.footer a {
-    color: #FFFFFF;
+.logo,
+.footer-address {
+  color: #ffffff;
 }
 
 .contacts-footer {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  font-style: inherit;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
 }
 
-.footer-list {
-    font-style: normal;
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-
-.footer-address {
-    color: #FFFFFF;
-}
-
-.footer-list-item {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-list-item:hover,
-.footer-list-item:focus {
-    color: #2196F3;
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: #2196F3;
 }
