@@ -112,6 +112,7 @@ body {
 }
 
 .benefits-item-title {
+  font-size: inherit;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
